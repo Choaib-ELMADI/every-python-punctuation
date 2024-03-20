@@ -68,10 +68,14 @@ do_something_2()
 
 ---
 
-- ### **_Modulo_** `%`: This is the modulo operator, the remain of division.
+- ### **_Modulo_** `%`: This is the modulo operator, the remain of division. It's also used to format strings.
 
 ```python
 x = 98
+
 print(x%2, x%3, x%5, sep=" ___ ")
 >> 0 ___ 2 ___ 3
+
+print("x = %s" % x)
+>> x = 98
 ```
