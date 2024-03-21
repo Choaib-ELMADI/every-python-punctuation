@@ -4,7 +4,7 @@
 
 ---
 
-- ### **_Tilde_** `~`: Bitwise not operator.
+- ### **_Tilde_** `~`: Bitwise Not operator.
 
 ```python
 x = 100
@@ -79,3 +79,87 @@ print(x%2, x%3, x%5, sep=" ___ ")
 print("x = %s" % x)
 >> x = 98
 ```
+
+---
+
+- ### **_Caret_** `^`: Bitwise Exclusive Or (XOR).
+
+```python
+a = 0b1111000010
+b = 0b0000111110
+
+x = a ^ b
+
+print(bin(a), bin(b), bin(x), sep=" ___ ")
+print(a, b, x, sep=" ___ ")
+
+>> 0b1111000010 ___ 0b111110 ___ 0b1111111100
+>> 962 ___ 62 ___ 1020
+```
+
+---
+
+- ### **_Ampersand_** `&`: Bitwise And operator.
+
+```python
+a = 0b00110011
+b = 0b11110000
+
+x = a & b
+
+print(bin(x))
+
+>> 0b110000
+```
+
+---
+
+- ### **_Asterisk_** `*`: The uses are:
+
+  - ### Multiplication operator
+
+  ```python
+  print(4 * 5)
+  print(3 * "Hello ")
+
+  >> 20
+  >> Hello Hello Hello
+  ```
+
+  - ### Unpacking operator
+
+  ```python
+  a, b, *others = (4, 5, 12, 4, 5, -2)
+  print("a = %s, b = %s, others = %s" % (a, b, others))
+
+  >> a = 4, b = 5, others = [12, 4, 5, -2]
+  ```
+
+  - ### Allow any number of positional arguments: as a tuple
+
+  ```python
+  def say_hello(*args):
+      print(args)
+
+
+  say_hello("Choaib", 22, "ENSA")
+  >> ('Choaib', 22, 'ENSA')
+
+  ```
+
+  - ### Allow any number of keyword arguments: as a dictionary
+
+  ```python
+  def say_hi(**kwargs):
+      print(kwargs)
+
+
+  say_hi(name="Choaib", age=22, school="ENSA")
+  >> {'name': 'Choaib', 'age': 22, 'school': 'ENSA')
+  ```
+
+  - ### Import everything from a module
+
+  ```python
+  from module_name import *
+  ```
