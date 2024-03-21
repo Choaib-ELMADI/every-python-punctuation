@@ -163,3 +163,31 @@ print(bin(x))
   ```python
   from module_name import *
   ```
+
+---
+
+- ### **_Brackets_** `( )`: Mainly used in functions, create tuples and packing.
+
+---
+
+- ### **_Curly Brackets_** `{ }`: Mainly used to create dictionaries or sets, and in f-strings.
+
+---
+
+- ### **_Square Brackets_** `[ ]`: Mainly used to create lists, access dictionary and tuple items.
+
+---
+
+- ### **_Plus Sign_** `+`: The plus operator.
+
+---
+
+- ### **_Minus Sign_** `-`: The minus operator.
+
+---
+
+- ### **_Underscore_** `_`: The only character that can be inside a variable name.
+
+---
+
+- ### **_Equal Sign_** `=`: Assignment operator. It can be combined with other punctuations to create combined assignment operators like: `+=`, `-=`, `*=`, `/=`, `%=` and `==`.
