@@ -191,3 +191,34 @@ print(bin(x))
 ---
 
 - ### **_Equal Sign_** `=`: Assignment operator. It can be combined with other punctuations to create combined assignment operators like: `+=`, `-=`, `*=`, `/=`, `%=` and `==`.
+
+---
+
+- ### **_Slash_** `/`: Mainly used for true division `/` and floor division `//`.
+
+---
+
+- ### **_Backslash_** `\`: Mainly used as an escape character. Used also to split a long line of code into multiple lines.
+
+---
+
+- ### **_Pipe Sign_** `|`: Bitwise Or operator.
+
+```python
+a = 0b01010101
+b = 0b10101010
+
+x = a | b
+
+print(bin(x))
+
+>> 0b11111111
+```
+
+---
+
+- ### **_Semicolon_** `;`: Used to squeeze multiple lines of code into one.
+
+---
+
+- ### **_Colon_** `:`: Used ...
