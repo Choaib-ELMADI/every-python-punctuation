@@ -14,13 +14,17 @@ print(~x)
 
 ---
 
-- ### **_Exclamation_** `!`: Doesn't do anything on it's own. Combining it with `=` makes the not equality operator.
+- ### **_Exclamation Mark_** `!`: Doesn't do anything on it's own. Combining it with `=` makes the not equality operator.
 
 ```python
 x = 4
 if x != 5:
     print("x is not equal to 5")
 ```
+
+---
+
+- ### **_Question Mark_** `?`: Doesn't do anything in Python.
 
 ---
 
@@ -221,4 +225,35 @@ print(bin(x))
 
 ---
 
-- ### **_Colon_** `:`: Used ...
+- ### **_Colon_** `:`: Used in control structures (if else, loops, ...), function definition, try except blocks.
+
+---
+
+- ### **_Single/Double Quotes_** `' "`: Mainly used with strings.
+
+---
+
+- ### **_Less/More than_** `< >`: Comparison operators, they can be combined with `=` to create `<=` and `>=`. They are also used as a left/right shifts operators.
+
+```python
+a = 0b110011
+
+print(bin(a))
+print(a)
+
+# Left Shift === Multiplication by 2
+print(bin(a << 1))
+print(a << 1)
+
+# Right Shift === Division by 2
+print(bin(a >> 1))
+print(a >> 1)
+```
+
+---
+
+- ### **_Comma_** `,`: Used to separate the arguments/parameters for a function. It separates the elements in lists, dictionaries, sets and tuples.
+
+---
+
+- ### **_Full Stop_** `.`: Used to access either the methods or the attributes of an object.
